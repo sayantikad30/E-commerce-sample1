@@ -7,9 +7,15 @@ body{
 	font-family: 'Poppins',sans-serif;
 }
 .navbar{
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	background: #758467;
 	display: flex;
 	align-items: center;
-	padding: 20px;
+	padding: 5px 50px;
+	justify-content: space-between;
+	z-index: 1000;
+	box-shadow: 0px 10px 30px rgb(0, 0, 0 , 0.7);
 }
 nav{
 	flex: 1;
@@ -25,7 +31,7 @@ nav ul li{
 }
 a{
 	text-decoration: none;
-	color: #555;
+	color: #fff;
 }
 p{
 	color: #555;
@@ -53,7 +59,7 @@ p{
 .col-2 h1{
 	font-size: 50px;
 	line-height: 60px;
-	margin: 13px 0;
+	margin: 30px 0;
 }
 .btn{
 	display: inline-block;
